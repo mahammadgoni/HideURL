@@ -34,7 +34,7 @@ public class TestCases extends BrowserSetUp{
 //		
 //		System.out.println("Executing Url Remove Test Case");
 //		
-//		new HomePage(driver).removeUrl("webspiderseo@gmail.com", "piws_seo*2018");
+//		new HomePage(driver).removeUrl("email", "pass");
 //		
 //	}
 	
@@ -43,7 +43,7 @@ public class TestCases extends BrowserSetUp{
 		
 		System.out.println("Executing Url Remove Test Case");
 		
-		new HomePage(driver).newUrlRemoveConsole("webspiderseo@gmail.com", "piws_seo*2018");
+		new HomePage(driver).newUrlRemoveConsole("email", "pass");
 		
 	}
 	
