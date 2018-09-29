@@ -29,12 +29,21 @@ public class TestCases extends BrowserSetUp{
 
 	}
 	
+//	@Test
+//	public void removeUrlTest() throws IOException, InterruptedException{
+//		
+//		System.out.println("Executing Url Remove Test Case");
+//		
+//		new HomePage(driver).removeUrl("webspiderseo@gmail.com", "piws_seo*2018");
+//		
+//	}
+	
 	@Test
-	public void removeUrlTest() throws IOException, InterruptedException{
+	public void newRemoveUrlTest() throws IOException, InterruptedException{
 		
 		System.out.println("Executing Url Remove Test Case");
 		
-		new HomePage(driver).removeUrl("webspiderseo@gmail.com", "piws_seo*2018");
+		new HomePage(driver).newUrlRemoveConsole("webspiderseo@gmail.com", "piws_seo*2018");
 		
 	}
 	
